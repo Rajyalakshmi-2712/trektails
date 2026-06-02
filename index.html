@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TrekTails | Adventure & Trekking</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+
+  <nav id="navbar">
+    <div class="logo">
+      <img src="images/logo.png" alt="TrekTails Logo">
+    </div>
+
+    <ul class="nav-links">
+      <li><a href="#">Home</a></li>
+      <li><a href="#destinations">Destinations</a></li>
+      <li><a href="#hotel">Hotels</a></li>
+      <li><a href="#Restaurants">Restaurants</a></li>
+      <li><a href="#contact">Contact</a></li>
+
+    </ul>
+
+    <button class="btn" onclick="window.location.href='booking.html'">Book Trek</button>
+  </nav>
+
+  <!-- HERO -->
+
+  <section class="hero">
+
+    <div class="hero-text">
+      <span>Bhavani Island Resort</span>
+      <h1>Discover Nature With TrekTails</h1>
+
+      <p>
+        Experience unforgettable water sports,adventure activities,relaxation,cruises and breathtaking journeys crafted
+        for travelers
+        who love nature and exploration.
+      </p>
+
+      <div class="hero-buttons">
+        <button class="btn" onclick="document.getElementById('destinations').scrollIntoView({behavior:'smooth'})">
+          Start Exploring
+        </button>
+        <button class="btn secondary-btn" onclick="window.location.href='packages.html'">
+          View Packages
+
+        </button>
+      </div>
+    </div>
+
+    <div class="hero-card">
+      <h3>Why Choose Us?</h3>
+
+      <div class="card-item">
+        <span>✔ Expert Guides</span>
+        <strong>100+</strong>
+      </div>
+
+      <div class="card-item">
+        <span>✔ Happy Travelers</span>
+        <strong>15K+</strong>
+      </div>
+
+      <div class="card-item">
+        <span>✔ Trek Locations</span>
+        <strong>80+</strong>
+      </div>
+
+      <div class="card-item">
+        <span>✔ Safety Support</span>
+        <strong>24/7</strong>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- DESTINATIONS -->
+
+  <section id="destinations">
+
+    <div class="section-title">
+      <h2>Popular views</h2>
+      <p>Explore our most loved and popular locations</p>
+    </div>
+
+    <div class="destination-grid">
+
+      <div class="card">
+        <img src="images\tree-top-rooms.jpg">
+        <div class="card-content">
+          <h3>tree-top-rooms</h3>
+          <p>
+            Every balcony opens to a canvas of green, painted by the Krishna River breeze.
+          </p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="images\bhavani-island-resort (5).jpg">
+        <div class="card-content">
+          <h3>view point</h3>
+          <p>
+            Golden hues melt into the calm waters of Bhavani Island, as the setting sun paints the sky with peace and
+            warmth.
+          </p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="images\bhavani-island-resort (14).jpg">
+        <div class="card-content">
+          <h3>Floating restaurant</h3>
+          <p>
+            The floating restaurant in the river is being introduced by the Goa-based Champions Yatch Club. Imagine
+            having your coffee on Krishna River, with cool breeze and enjoying the panoramic view of the river.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+
+  <section class="about" id="about">
+
+    <img src="images\bhavani-island-resort (13).jpg"
+
+    <div class="about-content">
+      <h2>Adventure Begins Here</h2>
+
+      <p>
+        TrekTails is more than a tourism platform. We create memorable
+        experiences for nature lovers.
+      </p>
+
+      <p>
+        Our mission is to connect people with nature through safe,
+        exciting, and professionally guided trekking journeys across
+        stunning destinations.
+      </p>
+
+      <button class="btn">Learn More</button>
+    </div>
+
+  </section>
+
+
+  <!-- ═══════════════════════════════════════
+       HOTELS SECTION — Bhavani Island
+  ════════════════════════════════════════ -->
+  <section id="hotel">
+
+    <div class="section-title">
+      <h2>Stay at Bhavani Island</h2>
+      <p>Handpicked accommodations blending nature, comfort, and the timeless serenity of the Krishna River</p>
+    </div>
+
+    <!-- ISLAND INFO BANNER -->
+    <div class="island-info-banner">
+
+      <div class="island-info-img">
+        <img src="images/bhavani-island-resort (5).jpg" alt="Bhavani Island">
+        <div class="island-img-overlay">
+          <span class="island-label">🌊 Bhavani Island</span>
+          <h3>Asia's Largest<br>River Island Resort</h3>
+          <p>133 acres of lush paradise<br>on the Krishna River, Andhra Pradesh</p>
+        </div>
+      </div>
+
+      <div class="island-info-content">
+        <div>
+          <h3>About Bhavani Island Resort</h3>
+          <p>
+            Bhavani Island is a breathtaking 133-acre island resort nestled in the Krishna River near Vijayawada,
+            Andhra Pradesh. Managed by the Andhra Pradesh Tourism Development Corporation (APTDC), it is recognized
+            as one of Asia's largest river island resorts. The island offers a rare blend of natural beauty, thrilling
+            adventure activities, and world-class hospitality — all surrounded by the serene waters of the Krishna River.
+          </p>
+        </div>
+
+        <div class="island-facts">
+          <div class="fact-item">
+            <span class="fact-icon">📍</span>
+            <div class="fact-text">
+              <strong>Location</strong>
+              <span>Krishna River, Vijayawada, AP</span>
+            </div>
+          </div>
+          <div class="fact-item">
+            <span class="fact-icon">🌿</span>
+            <div class="fact-text">
+              <strong>Island Area</strong>
+              <span>133 Acres of lush greenery</span>
+            </div>
+          </div>
+          <div class="fact-item">
+            <span class="fact-icon">🏛️</span>
+            <div class="fact-text">
+              <strong>Managed By</strong>
+              <span>APTDC (AP Tourism)</span>
+            </div>
+          </div>
+          <div class="fact-item">
+            <span class="fact-icon">🚤</span>
+            <div class="fact-text">
+              <strong>Access</strong>
+              <span>By boat from Pavitra Sangamam Ghat</span>
+            </div>
+          </div>
+          <div class="fact-item">
+            <span class="fact-icon">🌅</span>
+            <div class="fact-text">
+              <strong>Best Time to Visit</strong>
+              <span>October – March (cool & pleasant)</span>
+            </div>
+          </div>
+          <div class="fact-item">
+            <span class="fact-icon">🎯</span>
+            <div class="fact-text">
+              <strong>Activities</strong>
+              <span>20+ Water & Adventure Sports</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- HOTEL CARDS -->
+    <div class="hotel-grid">
+
+      <!-- Featured -->
+      <div class="hotel-card featured">
+        <div class="hotel-img-wrap">
+          <img src="images/tree-top-rooms.jpg" alt="Tree Top Cottages">
+          <span class="hotel-badge">⭐ Best Seller</span>
+          <span class="hotel-rating">★ 4.9</span>
+        </div>
+        <div class="hotel-body">
+          <h3>Tree Top Cottages</h3>
+          <p>
+            Perched high among the forest canopy, these exclusive tree-top cottages deliver a one-of-a-kind stay.
+            Wake up to birdsong and sip morning tea on your private balcony overlooking the Krishna River.
+            Modern amenities — air conditioning, hot water, room service — wrapped in raw, untouched natural beauty.
+            Perfect for couples and nature lovers seeking peace above the treetops.
+          </p>
+          <div class="hotel-amenities">
+            <span class="amenity">🌿 River View</span>
+            <span class="amenity">❄️ Air Conditioning</span>
+            <span class="amenity">🍳 Breakfast Included</span>
+            <span class="amenity">📶 Free Wi-Fi</span>
+            <span class="amenity">🛶 Boat Pier Access</span>
+            <span class="amenity">🦅 Bird Watching Deck</span>
+            <span class="amenity">🔒 24/7 Security</span>
+          </div>
+          <div class="hotel-footer">
+            <div class="hotel-price">
+              <strong>₹4,500</strong>
+              <small>/ night · per room</small>
+            </div>
+            <button class="btn-book-now" onclick="window.location.href='booking.html'">Book Now</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="hotel-card">
+        <div class="hotel-img-wrap">
+          <img src="images/bhavani-island-resort (5).jpg" alt="Riverside Cottage">
+          <span class="hotel-badge">Popular</span>
+          <span class="hotel-rating">★ 4.7</span>
+        </div>
+        <div class="hotel-body">
+          <h3>Riverside Cottages</h3>
+          <p>
+            Cozy, well-appointed cottages right on the Krishna River bank. Step outside and feel the cool breeze,
+            watch the golden sunset from your doorstep, and enjoy direct access to all island water activities.
+            Ideal for families and small groups.
+          </p>
+          <div class="hotel-amenities">
+            <span class="amenity">🌊 Riverfront</span>
+            <span class="amenity">❄️ AC Rooms</span>
+            <span class="amenity">🍽️ In-Room Dining</span>
+            <span class="amenity">🏊 Pool Access</span>
+          </div>
+          <div class="hotel-footer">
+            <div class="hotel-price">
+              <strong>₹3,200</strong>
+              <small>/ night · per room</small>
+            </div>
+            <button class="btn-book-now" onclick="window.location.href='booking.html'">Book Now</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="hotel-card">
+        <div class="hotel-img-wrap">
+          <img src="images\hotels-1.avif" alt="Island Resort Suite">
+          <span class="hotel-badge">Luxury</span>
+          <span class="hotel-rating">★ 4.8</span>
+        </div>
+        <div class="hotel-body">
+          <h3>Island Resort Suites</h3>
+          <p>
+            Spacious luxury suites with private sit-outs, modern interiors, and all-inclusive packages covering
+            dining, cruises, and adventure activities. The ultimate Bhavani Island experience for couples and families.
+          </p>
+          <div class="hotel-amenities">
+            <span class="amenity">🛏️ King Suite</span>
+            <span class="amenity">🍽️ All Inclusive</span>
+            <span class="amenity">⛵ Cruise Pass</span>
+            <span class="amenity">🧖 Spa Access</span>
+          </div>
+          <div class="hotel-footer">
+            <div class="hotel-price">
+              <strong>₹6,800</strong>
+              <small>/ night · per room</small>
+            </div>
+            <button class="btn-book-now" onclick="window.location.href='booking.html'">Book Now</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="hotel-card">
+        <div class="hotel-img-wrap">
+          <img src="images\nice-mural.jpg" alt="Backpacker Lodge">
+          <span class="hotel-badge">Budget Stay</span>
+          <span class="hotel-rating">★ 4.3</span>
+        </div>
+        <div class="hotel-body">
+          <h3>Backpacker's Lodge</h3>
+          <p>
+            Clean, comfortable, and affordable dormitory-style lodging perfect for solo travelers and backpacker groups.
+            Common lounge, secure lockers, and easy access to every island activity.
+          </p>
+          <div class="hotel-amenities">
+            <span class="amenity">🛏️ Dorm Beds</span>
+            <span class="amenity">🔒 Lockers</span>
+            <span class="amenity">📶 Free Wi-Fi</span>
+            <span class="amenity">🎒 Solo Friendly</span>
+          </div>
+          <div class="hotel-footer">
+            <div class="hotel-price">
+              <strong>₹800</strong>
+              <small>/ night · per bed</small>
+            </div>
+            <button class="btn-book-now" onclick="window.location.href='booking.html'">Book Now</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- WHY STAY HERE STRIP -->
+    <div class="why-stay">
+      <div class="why-item">
+        <span class="why-icon">🌊</span>
+        <h4>Riverfront Location</h4>
+        <p>Every room is just steps from the Krishna River — wake up to water, always.</p>
+      </div>
+      <div class="why-item">
+        <span class="why-icon">🚤</span>
+        <h4>Boat Transfers</h4>
+        <p>Complimentary boat rides to and from Pavitra Sangamam Ghat included with all stays.</p>
+      </div>
+      <div class="why-item">
+        <span class="why-icon">🏄</span>
+        <h4>20+ Activities Nearby</h4>
+        <p>Jet skiing, kayaking, zip lining and more — all within walking distance of your room.</p>
+      </div>
+      <div class="why-item">
+        <span class="why-icon">🍽️</span>
+        <h4>Island Dining</h4>
+        <p>From the floating restaurant to riverside BBQ — great food with stunning river views.</p>
+      </div>
+      <div class="why-item">
+        <span class="why-icon">🌿</span>
+        <h4>133 Acres of Nature</h4>
+        <p>Lush greenery, fresh air, and wildlife — a true escape from the city's hustle.</p>
+      </div>
+    </div>
+
+  </section>
+
+
+  <!-- STATS -->
+
+  <section class="stats">
+
+    <div class="stats-container">
+
+      <div class="stat-box">
+        <h2 class="counter" data-target="15000">0</h2>
+        <p>Travelers</p>
+      </div>
+
+      <div class="stat-box">
+        <h2 class="counter" data-target="85">0</h2>
+        <p>Destinations</p>
+      </div>
+
+      <div class="stat-box">
+        <h2 class="counter" data-target="120">0</h2>
+        <p>Expert Guides</p>
+      </div>
+
+      <div class="stat-box">
+        <h2 class="counter" data-target="10">0</h2>
+        <p>Years Experience</p>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- RESTAURANTS -->
+  <section id="Restaurants">
+
+    <div class="section-title">
+      <h2>Dining at Bhavani Island</h2>
+      <p>Savour every bite with Krishna River views — from floating cafés to riverside BBQ nights</p>
+    </div>
+
+    <div class="restaurant-grid">
+
+      <!-- Card 1 -->
+      <div class="restaurant-card featured">
+        <div class="card-img-wrapper">
+          <img src="images\Restaurant-2.jpg" alt="Floating Restaurant">
+          <span class="badge">⭐ Must Visit</span>
+          <span class="rating">★ 4.8</span>
+        </div>
+        <div class="r-content">
+          <h3>Champions Floating Restaurant</h3>
+          <p>Dine on the Krishna River aboard the Champions Yacht Club's floating restaurant. Sip your morning coffee
+            with a panoramic river view and cool island breeze.</p>
+          <div class="r-meta">
+            <span class="meta-tag">🍴 Multi-Cuisine</span>
+            <span class="meta-tag">🕐 7 AM – 10 PM</span>
+            <span class="meta-tag">🌊 River View</span>
+          </div>
+          <div class="price-row">
+            <p class="price">From <span>₹400</span> / person</p>
+          </div>
+        </div>
+      </div>
+      <!-- Card 2 -->
+      <div class="restaurant-card">
+        <div class="card-img-wrapper">
+          <img src="images\Restaurant-3.jpg" alt="Island Snack Bar">
+          <span class="badge">⭐ Quick Bites</span>
+          <span class="rating">★ 4.4</span>
+        </div>
+        <div class="r-content">
+          <h3>Island Snack Bar & Café</h3>
+          <p>Grab a fresh coconut water, cold-pressed juice, or local snacks between activities. Our snack bar keeps you
+            energized throughout your island adventure.</p>
+          <div class="r-meta">
+            <span class="meta-tag">☕ Café & Juice</span>
+            <span class="meta-tag">🕐 6 AM – 8 PM</span>
+            <span class="meta-tag">⚡ Quick Service</span>
+          </div>
+          <div class="price-row">
+            <p class="price">From <span>₹80</span> / item</p>
+          </div>
+        </div>
+      </div>
+
+
+
+
+      <!-- Card 3 -->
+      <div class="restaurant-card">
+        <div class="card-img-wrapper">
+          <img src="images\Restaurant-4.jpg" alt="BBQ Bonfire">
+          <span class="badge">⭐ Seasonal</span>
+          <span class="rating">★ 4.7</span>
+        </div>
+        <div class="r-content">
+          <h3>Riverside BBQ & Bonfire</h3>
+          <p>Under a canopy of stars, enjoy grilled seafood, skewers, and crispy snacks by a crackling bonfire on the
+            riverside — the perfect end to an adventurous day.</p>
+          <div class="r-meta">
+            <span class="meta-tag">🔥 BBQ & Grill</span>
+            <span class="meta-tag">🕐 6 PM – 11 PM</span>
+            <span class="meta-tag">🌙 Night Dining</span>
+          </div>
+          <div class="price-row">
+            <p class="price">From <span>₹500</span> / person</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- CONTACT -->
+
+      <section id="contact">
+
+        <div class="contact">
+
+          <div class="contact-wrapper">
+
+            <div class="contact-info">
+              <h2>Let's share your experience</h2>
+              <p>
+                From sunrise hikes to mountain memories — share your TrekTails journey with our community.
+              </p>
+            </div>
+
+            <form>
+              <input type="text" placeholder="Your Name">
+              <input type="email" placeholder="Your Email">
+              <textarea placeholder="Tell us about your dream trip"></textarea>
+
+              <button class="btn">Send Message</button>
+            </form>
+
+          </div>
+
+        </div>
+
+      </section>
+
+      <footer>
+        © 2026 TrekTails. Crafted for adventure lovers.
+      </footer>
+
+      <script>
+
+        // NAVBAR SHADOW
+
+        window.addEventListener("scroll", function () {
+          const navbar = document.getElementById("navbar");
+
+          navbar.classList.toggle("scrolled", window.scrollY > 50);
+        });
+
+        // COUNTER ANIMATION
+
+        const counters = document.querySelectorAll(".counter");
+
+        counters.forEach(counter => {
+
+          counter.innerText = "0";
+
+          const updateCounter = () => {
+
+            const target = +counter.getAttribute("data-target");
+            const current = +counter.innerText;
+
+            const increment = target / 100;
+
+            if (current < target) {
+              counter.innerText = `${Math.ceil(current + increment)}`;
+              setTimeout(updateCounter, 20);
+            }
+            else {
+              counter.innerText = target;
+            }
+          };
+
+          updateCounter();
+        });
+
+      </script>
+
+</body>
+
+</html>
